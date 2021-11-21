@@ -1,0 +1,1 @@
+java -Xms1g -Xmx1g -XX:MaxMetaspaceSize=128m -XX:CompileThreshold=1000 -XX:+UseG1GC -jar ./target/benchmarks.jar
